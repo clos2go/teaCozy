@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
 	font-family: Helvetica;
 	font-size: 22px;
@@ -5,4 +9,53 @@ body {
 	background-color: black;
 	opacity: 0.9;
 	text-align: center;
+	min-height: 100vh;
 }
+
+.header {
+	display: flex;
+	align-items: center;
+	height: 69px;
+	border-bottom: 1px solid seashell;
+}
+
+.header img {
+	height: 50px;
+	width: auto;
+}
+
+.header a {
+	color: seashell;
+}
+
+.header ul {
+	list-style: none;
+	display: flex;
+	margin: 0;
+	padding: 0;
+	/* justify-content: space-between; */
+}
+
+.logo {
+	font-size: 0.9rem;
+	padding-left: 10px;
+}
+
+.logo a,
+.main-nav a {
+	display: block;
+}
+
+nav .main-nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.main-nav a:hover {
+	color: grey;
+}
+
+/* ===================== 
+Media Queries 
+=======================*/
