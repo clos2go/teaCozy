@@ -64,13 +64,12 @@ a {
 	height: 700px;
 	display: flex;
 	align-items: center;
-    background-position: center;
-    background-repeat: no-repeat;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .mission {
 	justify-content: center;
-}
 }
 
 .mission img {
@@ -83,8 +82,8 @@ a {
 	 */
 
 .hero-content {
-    background-color: black;
-    width: 100%;
+	background-color: black;
+	width: 100%;
 }
 
 /* ============
@@ -92,28 +91,86 @@ TOM CONTENT
 ============ */
 
 .tom-content {
-    width: 70%;
-    margin: 10px auto;
+	width: 70%;
+	margin: 10px auto;
 }
 
 .tom-items {
-    margin: 10px auto;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+	margin: 10px auto;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .tom-items img {
-    width: 300px;
-    height: 200px;
-    margin: 10px 1.2em;
+	width: 300px;
+	height: 200px;
+	margin: 10px 1.2em;
 }
 
 .tom-description {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
-     /* ===================== 
+
+/* ============= 
+LOCATIONS 
+=============  */
+
+.location {
+}
+
+.location-image {
+	background-image: url("../images/img-locations-background.png");
+	height: 500px;
+	display: block;
+	align-items: center;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 2em 0;
+}
+
+.location-content {
+	width: 95%;
+	margin: 0px auto;
+}
+
+.location-items {
+	margin: 0px auto;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.location-box {
+	width: 300px;
+	background-color: black;
+	margin: 15px 20px;
+	opacity: 1;
+}
+
+/* ==============
+FOOOTER
+============== */
+
+.contact-foot {
+	height: 200px;
+	margin: 0;
+	padding: 0;
+}
+
+.closing-foot {
+	padding: 0;
+	margin: 0;
+	text-align: left;
+}
+
+.closing-foot h5 {
+	padding: 0 20px;
+}
+
+/* ===================== 
 Media Queries 
 =======================*/
